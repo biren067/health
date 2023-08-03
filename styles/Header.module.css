@@ -1,0 +1,25 @@
+/* ========== Header ========= */
+.mainnav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    background-color: var(--bg-color-dark);
+    color: aliceblue;
+    padding: 15px 0px;
+}
+
+.list_item {
+    padding: 2px 15px;
+    font-weight: 400;
+}
+
+.list_item:hover {
+    color: white;
+    background-color: var(--bg-color-light);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.list_group {
+    display: flex;
+}
